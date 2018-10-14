@@ -1,3 +1,7 @@
+/**
+	@Month of the last update : 2015/11
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -35,6 +39,7 @@ int main(void)
 
 	printf("\tCreate UDP Packet  ...\n\n");
 
+	// example : game.googerling.com
 	/////////////////* game.googerling.com Packet */////////////////
 	dns[0] = (int)0x00; // Header
 	dns[1] = (int)0x19;
@@ -75,7 +80,7 @@ int main(void)
 	dns[36] = (int)0x01;
 	////////////////////////////////////////////////////////////////
 
-
+	// example : googerling.com
 	/////////////////* googerling.com Packet */////////////////
 	/*
 	dns[0] = (int)0x00; // Header
